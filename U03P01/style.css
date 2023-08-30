@@ -26,6 +26,7 @@ ul {
     padding: 20px;
     max-width: 40%;
     border: 2px solid blue;
+    list-style-type: none;
 }
 
 li {
@@ -36,10 +37,11 @@ li {
     border-style: solid 2px color blue;
 }
 
-link {
+ul li{
     font-weight: bold;
     color: orange;
-    text-decoration: underline;
+    text-decoration: underline none;
+    padding: 10px;
 }
 
 .Neuquén-RíoNegro {
